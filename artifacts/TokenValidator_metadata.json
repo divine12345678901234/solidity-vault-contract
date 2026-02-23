@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "walletAddress",
+						"type": "address"
+					}
+				],
+				"name": "isWhitelisted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contacts.sol": "TokenValidator"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contacts.sol": {
+			"keccak256": "0x38fd233f272cf975d9e55ab4f2a3aac2cd11c3e013a7dbb68cecb156ff11c15a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e76cc053f40a1471f6b83bd00d3fbc14056b29be86e27e6b72c08e4be489efd",
+				"dweb:/ipfs/QmawQdYZYjNpQNWrY3uPfcN8znKGDJuVejZzo7zBzxcSF3"
+			]
+		}
+	},
+	"version": 1
+}
