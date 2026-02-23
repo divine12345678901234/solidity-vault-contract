@@ -79,19 +79,11 @@
 	},
 	"sources": {
 		"contacts.sol": {
-			"keccak256": "0x0fbdf64cdacad5d1fe81a552ae28ceb22993011424376d157536e7c2743581d4",
+			"keccak256": "0xc303400527e3f1ff5e07ca32af82ccd47c9265ef97abe99df9f0dc9904f18a15",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dde5d6a306de954cfb1d1795fd53d6dd8aeb7f361c31dd912817316c81edc123",
-				"dweb:/ipfs/QmZ3r1WPCzgnT5ikgZG2awnWJoztqoNBreXkvqRJ9WabRS"
-			]
-		},
-		"new.sol": {
-			"keccak256": "0xc815a4981e66c5632fc6640d3ff8f5da5ef567c3e18d327a0f05c704966ae7ca",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://4bc18309d59494500f373c9a5073b2a5db8934928af145f1633c4d916a3bdfc4",
-				"dweb:/ipfs/QmQorHQVsMT7MfAhiB7VY1mA4Ridp3673sj6xqJ5g2Qv9a"
+				"bzz-raw://a34ec6a78b37f8b3469acbd27b8c69b05c24f364b8459c68e27327719400e8b3",
+				"dweb:/ipfs/QmQrfvhZjzXdL9JZ3fR846EpHLdqmHNtNGZSdxUZ2eQmFB"
 			]
 		}
 	},
