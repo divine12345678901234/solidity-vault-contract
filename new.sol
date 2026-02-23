@@ -23,7 +23,7 @@ contract TokenValidator{
         return AddressToBool[TokenAddress];
     }
         function removeToken(address TokenAddress) public {
-            AddressToBool[TokenAddress] = false;
+            AddressToBool[TokenAddress] = true;
         }
     
 }

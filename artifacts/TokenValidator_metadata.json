@@ -9,11 +9,43 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "walletAddress",
+						"name": "TokenAddress",
 						"type": "address"
 					}
 				],
 				"name": "isWhitelisted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "TokenAddress",
+						"type": "address"
+					}
+				],
+				"name": "removeToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "TokenAddress",
+						"type": "address"
+					}
+				],
+				"name": "whiteList",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -32,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contacts.sol": "TokenValidator"
+			"new.sol": "TokenValidator"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -46,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contacts.sol": {
-			"keccak256": "0xf98905a573cb0715b8f146487f1802977e4c394547f7a04312c937ab9d68d425",
+		"new.sol": {
+			"keccak256": "0x45a8ec174365d2c43c9356610d967eb71ce1b1bea42bbd6e70d2ad8de974e7a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66fa8152fae0d490bc0653d4bb9c6398af4f03c019f0671671ef4429866c5ffa",
-				"dweb:/ipfs/Qmdp44fnfGvRz2XMDA29VVHGuYwWsVSKStD8htkp6i6TT7"
+				"bzz-raw://942c4852ef204136d9dadbfc6f78d59edfb3dc6c82133db2df07b57f1a88d425",
+				"dweb:/ipfs/Qma3WW9aSo7rLJZXmqmKqCcBCuZqhm2KRFo4a8G7PJGUq8"
 			]
 		}
 	},
