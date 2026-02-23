@@ -10,10 +10,8 @@ contract TokenValidator{
         
     }
     Addresses[] private  addresses;
-    function stringCase() private view returns{
-        
-        return message1;
-    }
+    
+    
     
 
     function isWhitelisted(address walletAddress) public {
