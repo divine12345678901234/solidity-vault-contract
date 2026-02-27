@@ -38,6 +38,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "message1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -46,7 +59,13 @@
 					}
 				],
 				"name": "whitelistToken",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -79,11 +98,11 @@
 	},
 	"sources": {
 		"contacts.sol": {
-			"keccak256": "0xc303400527e3f1ff5e07ca32af82ccd47c9265ef97abe99df9f0dc9904f18a15",
+			"keccak256": "0x0a46596ba051dbde32cece5fed04615009c4375cecd4af59d93407c70ae5d364",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a34ec6a78b37f8b3469acbd27b8c69b05c24f364b8459c68e27327719400e8b3",
-				"dweb:/ipfs/QmQrfvhZjzXdL9JZ3fR846EpHLdqmHNtNGZSdxUZ2eQmFB"
+				"bzz-raw://3107cc0392d2d3237112f47fe2864207c2ff99c09ed484a3ec85128dc984e399",
+				"dweb:/ipfs/QmWSD3BwWSv5jt1WKqidELpLa4i5mda6Ww82U9KzoAYesD"
 			]
 		}
 	},

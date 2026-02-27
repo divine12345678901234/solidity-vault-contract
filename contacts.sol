@@ -7,8 +7,8 @@ contract WalletValidator{
         
     
     mapping(address=>bool) private AddressToBool;
-    mapping(address=>string) private AddressToString;
-    string message1 = "you have entered an address";
+    
+    string public message1 = "you have entered an address";
     struct Addresses{
         address TokenAddress;
     }
@@ -17,12 +17,15 @@ contract WalletValidator{
 
     
 
-    function whitelistToken(address TokenAddress) public {
+    function whitelistToken(address TokenAddress) public returns (string memory){
         
         require(!AddressToBool[TokenAddress], "this address already exists");
         AddressToBool[TokenAddress] = true;
         addresses.push(Addresses(TokenAddress));
-        AddressToString[TokenAddress] = "ACTIVE";
+        return message1;
+        
+        
+       
         
         
 
