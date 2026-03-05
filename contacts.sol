@@ -17,12 +17,12 @@ contract WalletValidator{
 
     
 
-    function whitelistToken(address TokenAddress) public returns (string memory){
+    function whitelistToken(address TokenAddress) public  returns (string memory){
         
         require(!AddressToBool[TokenAddress], "this address already exists");
         AddressToBool[TokenAddress] = true;
         addresses.push(Addresses(TokenAddress));
-        return message1;
+        
         
         
        

@@ -98,11 +98,11 @@
 	},
 	"sources": {
 		"contacts.sol": {
-			"keccak256": "0x0a46596ba051dbde32cece5fed04615009c4375cecd4af59d93407c70ae5d364",
+			"keccak256": "0x7f0b1e691b9d5673e1e627d56feb5df2f87697304d5fbb78e9b7ecd080b720d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3107cc0392d2d3237112f47fe2864207c2ff99c09ed484a3ec85128dc984e399",
-				"dweb:/ipfs/QmWSD3BwWSv5jt1WKqidELpLa4i5mda6Ww82U9KzoAYesD"
+				"bzz-raw://d06a5d884e7dfe2a19e3e5de710b0c00a6a0a58cc102d9e46f4eb91fb50a0ba0",
+				"dweb:/ipfs/QmQhEZpyiKgQnTzEaVikMJiM94fFZ9R4L9j7MgLVMb3SNw"
 			]
 		}
 	},
