@@ -13,22 +13,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "allowance",
-				"outputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "addresses",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addresses",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -60,12 +55,50 @@
 			},
 			{
 				"inputs": [],
-				"name": "decimals",
+				"name": "decimal",
 				"outputs": [
 					{
 						"internalType": "uint8",
 						"name": "",
 						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "TokenAddress",
+						"type": "address"
+					}
+				],
+				"name": "delist",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "TokenAddress",
+						"type": "address"
+					}
+				],
+				"name": "isWhiteListed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -162,6 +195,25 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "TokenAddresses",
+						"type": "address"
+					}
+				],
+				"name": "whitelist",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -177,7 +229,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"divea.sol": "DiveaToken"
+			"yoo.sol": "divea"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -191,12 +243,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"divea.sol": {
-			"keccak256": "0xdab1a08528a4d5a94b86ca28cf744e444b4225642aa9d711ad593bbf6ff6a4a0",
+		"yoo.sol": {
+			"keccak256": "0x81b457f82026b0482913a74ce3c5f0da976169bf1706cdfe6d560cae4c1aee2c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9c9d99be1792fbc94fc0041fc64b767a051d369c38569422f9cf5efe2dbfc57",
-				"dweb:/ipfs/QmURQ5PX4VsUAm6ejh4n7myXLAfYi7yWfHM2kNzsDeJcEn"
+				"bzz-raw://af5e01bfb0df672457e46099bf111a19894152f4746f4f1992a0e1596253cf36",
+				"dweb:/ipfs/QmZDnj3UkpLiERazDopgbBDQBJgJUVmDGwnr5TLAYfWeQ1"
 			]
 		}
 	},

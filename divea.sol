@@ -33,6 +33,7 @@ contract DiveaToken {
         require(allowance[from][msg.sender]  >= value, "allowance exceeded");
 
 
+
         balanceOf[from] -= value;
         allowance[from][msg.sender] -= value;
         balanceOf[to] += value;
@@ -43,4 +44,6 @@ contract DiveaToken {
 
 
 }
+
+//0x0fC5025C764cE34df352757e82f7B5c4Df39A836
 
